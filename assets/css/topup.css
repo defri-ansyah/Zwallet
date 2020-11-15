@@ -1,0 +1,38 @@
+.topup-section {
+    width: 57vw;
+    background: #fff;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-bottom: 10px !important;
+}
+
+.topup-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #3A3D42;
+}
+
+.topup-desc {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    height: 88px;
+    width: 100%;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.topup-desc span {
+    color:#6379F4;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.topup-desc p {
+    color: #7A7886;
+}

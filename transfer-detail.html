@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transfer</title>
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <script src="https://kit.fontawesome.com/67467e738a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container dashboard">
+    <nav class="navbar">
+      <div class="nav-child">
+        <p class="zwallet">
+          ZWallet
+        </p>
+        <div class="user">
+          <img src="./assets/image/Rectangle 25.png" alt="pict1">
+          <div class="user-data">
+            <p class="username">
+              Robert Chandler
+            </p>
+            <p class="phonenumber">
+              +62 8139 3877 7946
+            </p>
+          </div>
+          <div class="bell">
+            <img src="./assets/image/bell.png" alt="bell">
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="transfer-container">
+      <aside class="sidebar">
+        <div>
+          <a href="./dashboard.html" class="menu">
+            <img src="./assets/image/grid.svg" alt="grid">
+            <p>Dashboard</p>
+          </a>
+          <a href="./transfer.html" class="menu blue">
+            <img src="./assets/image/arrow-up.svg" alt="transfer">
+            <p class="blue">Transfer</p>
+          </a>
+          <a href="./topup.html" class="menu">
+            <img src="./assets/image/plus.png" alt="topup">
+            <p>Top Up</p>
+          </a>
+          <div class="menu">
+            <img src="./assets/image/user.svg" alt="profile">
+            <p>Profile</p>
+          </div>
+        </div>
+        <a href="./login.html" class="logout">
+          <img src="./assets/image/log-out.svg" alt="logout">
+          <p>Logout</p>
+        </a>
+      </aside>
+      <main>
+        <div class="history-section">
+          <div class="transaction-history">
+            <p>
+              Transfer To
+            </p>
+          </div>
+          <div class="transaction-detail">
+            <div class="transaction receiver-list">
+              <div class="history receiver">
+                <img src="./assets/image/1.svg">
+                <div class="name1">
+                  <p>
+                    Samuel Suhi
+                  </p>
+                  <p class="desc">
+                    +62 813-8492-9994
+                  </p>
+                </div>
+              </div>
+              <p style="color: #3A3D42;">
+                Details
+              </p>
+              <div class="trf-detail">
+                <p class="title-trf">
+                  Amount
+                </p>
+                <p class="detail-trf">
+                  Rp. 100.000
+                </p>
+              </div>
+              <div class="trf-detail">
+                <p class="title-trf">
+                  Balance Left
+                </p>
+                <p class="detail-trf">
+                  Rp. 20.000
+                </p>
+              </div>
+              <div class="trf-detail">
+                <p class="title-trf">
+                  Date & Time
+                </p>
+                <p class="detail-trf">
+                  May 11, 2020 - 12.20
+                </p>
+              </div>
+              <div class="trf-detail">
+                <p class="title-trf">
+                  Notes
+                </p>
+                <p class="detail-trf">
+                  For buying some socks
+                </p>
+              </div>
+              <div class="btn-success">
+                <a href="#" class="continue" onclick="document.getElementById('modal-pin').style.display='block'">
+                  <p>Continue</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+    <footer>
+      <div class="footer">
+        <div class="foot1">2020 Zwallet. All right reserved.</div>
+        <div class="footer2">
+          <div class="foot2">+62 5637 8882 9901</div>
+          <div class="foot3">contact@zwallet.com</div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal Pin -->
+    <div id="modal-pin" class="modal">
+      <form class="modal-content" action=" ">
+        <div class="modal-header">
+          <h3>Enter PIN to Transfer</h3>
+          <span onclick="document.getElementById('modal-pin').style.display='none'" class="close" title="Close Modal">&times;</span>
+        </div>
+        <div class="edit-container">
+          <p>Enter your 6 digits PIN for confirmation to continue transferring money. </p>
+          <div class="form-input pin-modal">
+            <input id="codeBox1" type="number" maxlength="1" onkeyup="onKeyUpPin(1, event)" onfocus="onFocusEvent(1)"/>
+            <input id="codeBox2" type="number" maxlength="1" onkeyup="onKeyUpPin(2, event)" onfocus="onFocusEvent(2)"/>
+            <input id="codeBox3" type="number" maxlength="1" onkeyup="onKeyUpPin(3, event)" onfocus="onFocusEvent(3)"/>
+            <input id="codeBox4" type="number" maxlength="1" onkeyup="onKeyUpPin(4, event)" onfocus="onFocusEvent(4)"/>
+            <input id="codeBox5" type="number" maxlength="1" onkeyup="onKeyUpPin(5, event)" onfocus="onFocusEvent(5)"/>
+            <input id="codeBox6" type="number" maxlength="1" onkeyup="onKeyUpPin(6, event)" onfocus="onFocusEvent(6)"/>
+          </div>
+          <div class="pin-button">
+            <a href="./transfer-success.html" id="confirm2" class="edit-btn">Continue</a>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="./assets/js/main.js"></script>    
+</body>
+</html>

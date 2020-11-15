@@ -1,0 +1,29 @@
+.history-section {
+    width: 57vw;
+    background: #fff;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-bottom: 30px !important;
+}
+
+.transaction-history {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #3A3D42;
+}
+
+.this-week {
+    font-size: 16px;
+    color: #7A7886;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.history-transaction {
+    margin-top: 50px;
+}
+

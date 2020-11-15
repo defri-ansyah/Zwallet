@@ -1,0 +1,161 @@
+.profile-section {
+    width: 57vw;
+    background: #fff;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-bottom: 30px !important;
+}
+
+.profile-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.profile-detail img {
+    width: 80px;
+}
+
+.edit {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.edit img {
+    width: 11px;
+}
+
+.edit p {
+    color: #7A7886;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.profile-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4D4B57;
+    margin-top: 15px;
+}
+
+.profile-number {
+    color: #7A7886;
+    margin-top: 10px;
+}
+
+.more {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 433px;
+}
+
+.more-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #E5E8ED;
+    border-radius: 10px;
+    height: 64px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+.more-detail img {
+    width: 28px;
+    transform: rotate(90deg);
+}
+
+.more-detail p {
+    color: #4D4B57;
+    font-weight: bold;
+}
+
+.profile-title {
+    color: #3A3D42;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.profile-desc {
+    width: 342px;
+    color: #7A7886;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+.profile-detail-desc {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    height: 92px;
+    width: 100%;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    align-items: left;
+    justify-content: center;
+}
+.profile-detail-desc p {
+    margin-left: 20px;
+}
+
+.detail-title {
+    font-size: 16px;
+    color: #7A7886;
+}
+
+.detail-field {
+    color: #514F5B;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.detail {
+    margin-top: 20px;
+}
+
+.manage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.manage-tab {
+    margin-right: 30px;
+    color: #6379F4;
+    font-size: 16px;
+}
+
+.change-password, .change-pin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-password {
+    border-bottom: 1.5px solid rgba(169, 169, 169, 0.6);
+    color: #D0CCCC;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5px;
+    margin-top: 50px;
+    width: 432px;
+}
+
+.change-btn {
+    width: 432px;
+}
+
+.change-pin {
+    margin-top: 100px;
+}
